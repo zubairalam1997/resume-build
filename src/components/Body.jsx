@@ -1,7 +1,7 @@
 import React, { useState ,useRef } from 'react';
 import ReactToPrint from "react-to-print";
 import { ArrowDown } from "react-feather";
-import Education from './Education';
+import Edit from './Edit';
 import MyResume from './MyResume';
 
 const Body = () => {
@@ -61,7 +61,7 @@ const Body = () => {
   return (
     <div >
 
-        <Education sections={sections} resumeInfo={resumeInformation} setInformation={setResumeInformation} />
+        <Edit sections={sections} resumeInfo={resumeInformation} setInformation={setResumeInformation} />
         <MyResume sections={sections} resumeInfo={resumeInformation}  ref={resumeRef} />
         <ReactToPrint
           trigger={() => {

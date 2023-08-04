@@ -4,7 +4,7 @@ import { useState } from "react";
 import { X } from "react-feather";
 
 
-const Education = ({ sections, resumeInfo ,setInformation }) => {
+const Edit = ({ sections, resumeInfo ,setInformation }) => {
   // const sections = props.sections;
 
   // const resumeInfo = props.resumeInfo;
@@ -670,4 +670,4 @@ const Education = ({ sections, resumeInfo ,setInformation }) => {
   );
 };
 
-export default Education;
+export default Edit;
